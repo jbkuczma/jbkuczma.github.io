@@ -1,7 +1,1 @@
-# jbkuczma.github.io
-<<<<<<< HEAD
-# jbkuczma.github.io
-# jbkuczma.github.io
-=======
->>>>>>> d1809944ce821dc040a80947bb851cd374cc5003
-# jbkuczma.github.io
+This was a small project I took while learning HTML5 and CSS3. It is a small and simple website that I hope to expand upon in the future as I learn more!
