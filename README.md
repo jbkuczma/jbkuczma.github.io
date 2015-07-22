@@ -1,1 +1,2 @@
-This was a small project I took while learning HTML5 and CSS3. It is a small and simple website that I hope to expand upon in the future as I learn more!
+A simple website I created while teaching myself HTML and CSS. In the future I hope to add more content and possibly make it more visually appealing. 
+*A known bug that I must fix is the mobile layout.
