@@ -29,7 +29,7 @@ p.project{
 	padding-right: 50px;
 	font-family: 'Ubuntu', sans-serif;
 }
-p.project a:link{
+p.project a{
 	color:#FF0000;
 }
 h1{
