@@ -31,6 +31,12 @@
 	min-width: 100px;
 	text-decoration: none;
 }
+#social-buttons a:hover{
+	background-color: #99B2FF;
+	border-radius: 42px;
+	width: 42px;
+	height: 42px;
+}
 .circle{
 	width: 300px;
 	height: 200px;
@@ -89,6 +95,7 @@ li {
 	background: #ffffff;
 	z-index:999;
 	text-decoration: none;
+	font-family: 'Ubuntu';
 }
 
 /*Hover state for top level links*/
