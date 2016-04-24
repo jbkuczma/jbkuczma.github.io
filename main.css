@@ -47,7 +47,6 @@ header .header-content {
 
 .inner #resume-link, .inner #contact-link {
     display: inline-block;
-    /*width: 200px;*/
     max-width: 200px;
     width: 50%;
     margin: 0 auto;
