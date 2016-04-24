@@ -39,14 +39,18 @@ header .header-content {
 .inner {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
+    max-width: 500px;
     padding: 10px 5px;
     background-color: rgba(42, 41, 40,0.4);
 }
 
 .inner #resume-link, .inner #contact-link {
     display: inline-block;
-    width: 200px;
+    /*width: 200px;*/
+    max-width: 200px;
+    width: 50%;
+    margin: 0 auto;
     padding: 8px;
     color: #fff;
     border: 1px solid #fff;
