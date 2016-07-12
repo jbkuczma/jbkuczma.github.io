@@ -15,6 +15,47 @@ h1, h2, h3, h4, h5, h6, p, div{
     transition: color 0.3s ease-in;
 }
 
+#word_shift {
+    position: relative;
+    display: inline-block;
+    margin-right: 8%;
+    margin-top: 10px;
+}
+#word_shift p {
+    font-size: 18px;
+    border-right: 2px solid #006eff;
+    padding-right: 10px;
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+}
+.bounce {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    -webkit-animation:bounce 1.5s infinite;
+}
+.bounce #arrow {
+    height: 120px;
+    width: 120px;
+}
+@-webkit-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     {bottom:0;}
+}
+#arrow path {
+    fill: #21CE99;
+}
+#arrow:hover path {
+    opacity: 0.8;
+}
+
 header {
     position: relative;
     min-height: auto;
@@ -22,15 +63,28 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('images/rooftop.jpg');
-    background-position: center;
+    /*background-image: url('images/rooftop.jpg');*/
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.3) 100%), url('images/rooftop.jpg') no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.3))), url('images/rooftop.jpg') no-repeat;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.3) 100%), url('images/rooftop.jpg') no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.3) 100%), url('images/rooftop.jpg') no-repeat;
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.3) 100%), url('images/rooftop.jpg') no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.3) 100%), url('images/rooftop.jpg') no-repeat;
+
+    background-position: left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100%;
 }
 header .header-content {
-    position: relative;
+    /*position: relative;*/
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     width: 100%;
     padding: 200px 15px;
     text-align: center;
@@ -101,7 +155,7 @@ header .header-content {
     text-align: center;
 }
 #con{
-    background: rgb(41,41,41);
+    background: #353535;
     padding: 40px;
 }
 #contact-me{
