@@ -189,6 +189,36 @@ header .header-content {
     text-align: left;
     padding-left: 30px;
 }
+#three {
+    background-color: #353535;
+}
+#photo {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 500px;
+    padding: 20px 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#photo-link {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    background: rgba(42, 41, 40,0.5);
+    transition: background 0.2s ease-out, color 0.2s ease-out;
+}
+#photo-link:hover, #photo-link:active {
+    background: #fff;
+    color: rgba(42, 41, 40,0.8);
+    transition: background 0.3s ease-in, color 0.3s ease-in;
+}
 input[type="text"], input[type="password"], input[type="email"], textarea {
 	-moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
