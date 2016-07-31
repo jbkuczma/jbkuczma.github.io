@@ -7,7 +7,15 @@ a {
 }
 
 img {
+	width: 100%;
 	max-width: 100%;
-	height: auto;
 	display: block;
+}
+
+body {
+	overflow: hidden;
+}
+
+#temp_head {
+	text-align: center;
 }
