@@ -1,9 +1,14 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h1, h2, h3, h4, h5, h6, p, div{
     font-family: 'Oxygen', sans-serif;
 }
 
 a {
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 img {
@@ -12,10 +17,16 @@ img {
 	display: block;
 }
 
-body {
+/*body {
 	overflow: hidden;
-}
+}*/
 
 #temp_head {
 	text-align: center;
 }
+
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
