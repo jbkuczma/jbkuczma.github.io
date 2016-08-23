@@ -30,3 +30,9 @@ img {
 	margin: 0 !important;
 }
 
+#logo {
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+}
+
