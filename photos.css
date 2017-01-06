@@ -139,7 +139,11 @@ section.module.parallax {
     background-size: contain;
 }
 
-
+@media screen and (max-width: 780px) {
+    section.module.parallax {
+        background-attachment: scroll !important;
+    }
+}
 
 @media only screen {
     .parallax-1 {
