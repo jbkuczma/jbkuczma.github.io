@@ -126,7 +126,8 @@ header .header-content {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
-    background: #353535;
+    /*background: #353535;*/
+    background: #1c2127;
     color: #dedede;
 }
 
@@ -134,7 +135,8 @@ header .header-content {
     padding-top: 30px;
     padding-bottom: 40px;
     text-align: center;
-    background: #353535;
+    /*background: #353535;*/
+    background: #1c2127;
     color: #dedede;
 }
 
@@ -155,7 +157,8 @@ header .header-content {
     text-align: center;
 }
 #con{
-    background: #353535;
+    /*background: #353535;*/
+    background: #1c2127;
     padding: 40px;
 }
 #contact-me{
@@ -175,7 +178,8 @@ header .header-content {
     /*padding-top: 30px;*/
     padding-left: 30px;
     padding-right: 30px;
-    background: #353535;
+    /*background: #353535;*/
+    background: #1c2127;
 }
 .project-list h3{
     text-align: left;
@@ -190,7 +194,8 @@ header .header-content {
     padding-left: 30px;
 }
 #three {
-    background-color: #353535;
+    /*background-color: #353535;*/
+    background: #1c2127;
 }
 #photo {
     text-align: center;
