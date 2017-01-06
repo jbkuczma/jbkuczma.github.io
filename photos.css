@@ -119,7 +119,8 @@ section.module.parallax {
 }
 
 .parallax-1 {
-  background-image: url("https://drscdn.500px.org/photo/169278907/m%3D900/8d87dce8064511b852a524547510ad38");
+  background-image: url('images/nyc.jpg');
+  /*background-image: url("https://drscdn.500px.org/photo/169278907/m%3D900/8d87dce8064511b852a524547510ad38");*/
   background-size: cover;
 }
 .parallax-2 {
