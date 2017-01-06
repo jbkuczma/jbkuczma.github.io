@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -7,22 +17,8 @@ h1, h2, h3, h4, h5, h6, p, div{
     font-family: 'Oxygen', sans-serif;
 }
 
-a {
-	/*display: inline-block;*/
-}
-
-img {
-	width: 100%;
-	max-width: 100%;
-	display: block;
-}
-
-/*body {
+body {
 	overflow: hidden;
-}*/
-
-#temp_head {
-	text-align: center;
 }
 
 .nopadding {
@@ -36,3 +32,105 @@ img {
 	margin: 0 auto;
 }
 
+.head_wrapper {
+    position: absolute;
+    /*position: fixed;*/
+    /*left: 50%;
+    transform: translateX(-50%);*/
+    text-align: center;
+    width: 100%;
+    background: -webkit-linear-gradient(rgba(97,97,97,0.5) , rgba(236,233,230,0));
+    background: linear-gradient(rgba(97,97,97,0.5) , rgba(236,233,230,0));
+}
+.head {
+    display: inline-block;
+}
+
+.social_media {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.social_media_item {
+    float: left;
+    display: block;
+    /*width: 50%;*/
+    margin-right: 30px;
+    text-align: center;
+    /*font-size: 18px;*/
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+/* http://stackoverflow.com/questions/28623446/expand-bottom-border-on-hover */
+.social_media_item a:after {
+  display:block;
+  content: '';
+ border-bottom: 3px solid #448AFF;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  text-decoration: none;
+}
+.social_media_item a:hover:after { transform: scaleX(1); }
+.social_media_item a.fromRight:after{ transform-origin:100% 50%; }
+.social_media_item a.fromLeft:after{  transform-origin:  0% 50%; }
+
+.social_media_item a:hover {
+    text-decoration: none;
+
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module.parallax {
+  height: 100%;
+  /*background-position: 50% 50%;*/
+  /*background-position: bottom;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  cursor: pointer;
+
+
+}
+
+.blur {
+    background: -webkit-linear-gradient(rgba(97,97,97,0.5) , rgba(236,233,230,0));
+    background: linear-gradient(rgba(97,97,97,0.5) , rgba(236,233,230,0));
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15,15,15,0.9);
+    visibility: hidden;
+}
+#overlayImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.parallax-1 {
+  background-image: url("https://drscdn.500px.org/photo/169278907/m%3D900/8d87dce8064511b852a524547510ad38");
+  background-size: cover;
+}
+.parallax-2 {
+    background-image: url("https://drscdn.500px.org/photo/191256723/m%3D900/84e4f244ae0da227b182404c4fc399d6");
+    background-size: cover;
+}
+.parallax-3 {
+  background-image: url("https://drscdn.500px.org/photo/175717689/m%3D900/9534112f3cd37e727af0549b8870a341");
+  background-size: cover;
+}
+.parallax-4 {
+    background-image: url("https://drscdn.500px.org/photo/176152301/m%3D900/f74a6002c6b692f3b67aa46f365c1e58");
+    background-size: contain;
+}
