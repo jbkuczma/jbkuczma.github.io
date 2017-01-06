@@ -19,6 +19,8 @@ h1, h2, h3, h4, h5, h6, p, div{
 
 body {
 	overflow: hidden;
+    background: -webkit-linear-gradient(rgba(97,97,97,0.5) , rgba(236,233,230,0));
+    background: linear-gradient(rgba(97,97,97,0.5) , rgba(236,233,230,0));
 }
 
 .nopadding {
@@ -53,13 +55,14 @@ body {
     overflow: hidden;
 }
 .social_media_item {
-    float: left;
-    display: block;
+    /*float: left;*/
+    display: inline-block;
     /*width: 50%;*/
     margin-right: 30px;
     text-align: center;
     /*font-size: 18px;*/
-    font-size: 2em;
+    font-size: 3.5vw;
+    /*font-size: 2em;*/
     text-transform: uppercase;
 }
 
@@ -134,4 +137,26 @@ section.module.parallax {
 .parallax-4 {
     background-image: url("https://drscdn.500px.org/photo/176152301/m%3D900/f74a6002c6b692f3b67aa46f365c1e58");
     background-size: contain;
+}
+
+
+
+@media only screen {
+    .parallax-1 {
+      background-image: url('images/nyc.jpg');
+      /*background-image: url("https://drscdn.500px.org/photo/169278907/m%3D900/8d87dce8064511b852a524547510ad38");*/
+      background-size: contain;
+    }
+    .parallax-2 {
+        background-image: url("https://drscdn.500px.org/photo/191256723/m%3D900/84e4f244ae0da227b182404c4fc399d6");
+        background-size: contain;
+    }
+    .parallax-3 {
+      background-image: url("https://drscdn.500px.org/photo/175717689/m%3D900/9534112f3cd37e727af0549b8870a341");
+      background-size: contain;
+    }
+    .parallax-4 {
+        background-image: url("https://drscdn.500px.org/photo/176152301/m%3D900/f74a6002c6b692f3b67aa46f365c1e58");
+        background-size: contain;
+    }
 }
