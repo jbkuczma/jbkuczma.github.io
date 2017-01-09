@@ -351,7 +351,20 @@ input[type="button"].small,input[type="submit"].small,input[type="reset"].small,
     padding: 40px;
 }
 .icons li {
-    display: inline;
+    /*display: inline;*/
+    display: inline-block;
+    width: 32%;
+}
+
+.social_svg path {
+    fill: #1c2127;
+}
+
+.social_svg {
+    height: 120px;
+    width: 120px;
+    /*height: 60%;
+    width: 60%;*/
 }
 .icons a {
     display: inline-block;
@@ -360,4 +373,30 @@ input[type="button"].small,input[type="submit"].small,input[type="reset"].small,
 }
 .icons a:hover{
     opacity: 0.4;
+    cursor: pointer;
 }
+
+/*.icons {
+    display: block;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.icons li {
+    display: inline-block;
+    width: 30%;
+}
+
+.icons a, svg {
+    display: block;
+}
+
+.icons a {
+    position: relative;
+}
+
+.icons svg {
+    height: 50%;
+    width: 50%;
+}*/
