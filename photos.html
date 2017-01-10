@@ -49,7 +49,7 @@
                 parallax[i].addEventListener('click', function(event){
                     var style = getComputedStyle(event.srcElement)
                     var url = style.backgroundImage
-                    url = url.substring(4, url.length-1)
+                    url = url.substring(5, url.length-2)
                     // window.open(url, "_blank").focus()
                     var over = document.getElementsByClassName('overlay')
                     over[0].style.visibility = 'visible';
