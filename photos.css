@@ -35,10 +35,6 @@ body {
 }
 
 .head_wrapper {
-    /*position: absolute;*/ /* parallax */
-    /*position: fixed;*/
-    /*left: 50%;
-    transform: translateX(-50%);*/
     text-align: center;
     width: 100%;
     background: -webkit-linear-gradient(rgba(97,97,97,0.5) , rgba(236,233,230,0));
@@ -55,14 +51,10 @@ body {
     overflow: hidden;
 }
 .social_media_item {
-    /*float: left;*/
     display: inline-block;
-    /*width: 50%;*/
     margin-right: 30px;
     text-align: center;
-    /*font-size: 18px;*/
     font-size: 3.5vw;
-    /*font-size: 2em;*/
     text-transform: uppercase;
 }
 
@@ -81,7 +73,7 @@ body {
 
 .social_media_item a:hover {
     text-decoration: none;
-
+    cursor: pointer;
 }
 
 section.module:last-child {
@@ -90,8 +82,6 @@ section.module:last-child {
 
 section.module.parallax {
   height: 100%;
-  /*background-position: 50% 50%;*/
-  /*background-position: bottom;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -145,47 +135,3 @@ section.module.parallax {
         column-count:         2;
     }
 }
-
-/*.parallax-1 {
-  background-image: url('images/nyc.jpg');*/
-  /*background-image: url("https://drscdn.500px.org/photo/169278907/m%3D900/8d87dce8064511b852a524547510ad38");*/
-  /*background-size: cover;*/
-/*}
-.parallax-2 {
-    background-image: url("https://drscdn.500px.org/photo/191256723/m%3D900/84e4f244ae0da227b182404c4fc399d6");*/
-    /*background-size: cover;*/
-/*}
-.parallax-3 {
-  background-image: url("https://drscdn.500px.org/photo/175717689/m%3D900/9534112f3cd37e727af0549b8870a341");*/
-  /*background-size: cover;*/
-/*}
-.parallax-4 {
-    background-image: url("https://drscdn.500px.org/photo/176152301/m%3D900/f74a6002c6b692f3b67aa46f365c1e58");*/
-    /*background-size: contain;*/
-/*}*/
-
-/*@media screen and (max-width: 780px) {
-    section.module.parallax {
-        background-attachment: scroll !important;
-    }
-}
-
-@media only screen {
-    .parallax-1 {
-      background-image: url('images/nyc.jpg');
-      /*background-image: url("https://drscdn.500px.org/photo/169278907/m%3D900/8d87dce8064511b852a524547510ad38");*/
-      /*background-size: contain;
-    }
-    .parallax-2 {
-        background-image: url("https://drscdn.500px.org/photo/191256723/m%3D900/84e4f244ae0da227b182404c4fc399d6");
-        background-size: contain;
-    }
-    .parallax-3 {
-      background-image: url("https://drscdn.500px.org/photo/175717689/m%3D900/9534112f3cd37e727af0549b8870a341");
-      background-size: contain;
-    }
-    .parallax-4 {
-        background-image: url("https://drscdn.500px.org/photo/176152301/m%3D900/f74a6002c6b692f3b67aa46f365c1e58");
-        background-size: contain;
-    }
-}*/

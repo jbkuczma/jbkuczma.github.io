@@ -29,12 +29,7 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="photos">
-            <section class="module parallax parallax-1"> </section>
-            <section class="module parallax parallax-2"> </section>
-            <section class="module parallax parallax-3"> </section>
-            <section class="module parallax parallax-4"> </section>
-        </div> -->
+
         <div class="photos">
             <section><img class="gallery img-responsive" src="images/nyc.jpg" /> </section>
             <section><img class="gallery img-responsive" src="https://drscdn.500px.org/photo/176152301/m%3D900/f74a6002c6b692f3b67aa46f365c1e58" /> </section>
@@ -50,19 +45,6 @@
                 document.getElementsByClassName('overlay')[0].style.visibility = 'hidden';
             }
 
-            // var parallax = document.getElementsByClassName('parallax')
-            // for(var i = 0; i < parallax.length; i++){
-            //     parallax[i].addEventListener('click', function(event){
-            //         var style = getComputedStyle(event.srcElement)
-            //         var url = style.backgroundImage
-            //         url = url.substring(5, url.length-2)
-            //         // window.open(url, "_blank").focus()
-            //         var over = document.getElementsByClassName('overlay')
-            //         over[0].style.visibility = 'visible';
-            //         document.getElementById('overlayImage').src = url
-            //
-            //     })
-            // }
             var gallery = document.getElementsByClassName('gallery')
             for(var i = 0; i < gallery.length; i++){
                 gallery[i].addEventListener('click', function(event){
