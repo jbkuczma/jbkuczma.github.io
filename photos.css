@@ -35,7 +35,7 @@ body {
 }
 
 .head_wrapper {
-    position: absolute;
+    /*position: absolute;*/ /* parallax */
     /*position: fixed;*/
     /*left: 50%;
     transform: translateX(-50%);*/
@@ -121,25 +121,50 @@ section.module.parallax {
     margin-top: 75px;
 }
 
-.parallax-1 {
-  background-image: url('images/nyc.jpg');
-  /*background-image: url("https://drscdn.500px.org/photo/169278907/m%3D900/8d87dce8064511b852a524547510ad38");*/
-  background-size: cover;
+.photos {
+    margin-top: 20px;
+    line-height: 0;
+    /*-webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;*/
 }
-.parallax-2 {
-    background-image: url("https://drscdn.500px.org/photo/191256723/m%3D900/84e4f244ae0da227b182404c4fc399d6");
-    background-size: cover;
-}
-.parallax-3 {
-  background-image: url("https://drscdn.500px.org/photo/175717689/m%3D900/9534112f3cd37e727af0549b8870a341");
-  background-size: cover;
-}
-.parallax-4 {
-    background-image: url("https://drscdn.500px.org/photo/176152301/m%3D900/f74a6002c6b692f3b67aa46f365c1e58");
-    background-size: contain;
+.photos img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-@media screen and (max-width: 780px) {
+@media (min-width: 1100px){
+    .photos {
+        -moz-column-count:    2;
+        -webkit-column-count: 2;
+        column-count:         2;
+    }
+}
+
+/*.parallax-1 {
+  background-image: url('images/nyc.jpg');*/
+  /*background-image: url("https://drscdn.500px.org/photo/169278907/m%3D900/8d87dce8064511b852a524547510ad38");*/
+  /*background-size: cover;*/
+/*}
+.parallax-2 {
+    background-image: url("https://drscdn.500px.org/photo/191256723/m%3D900/84e4f244ae0da227b182404c4fc399d6");*/
+    /*background-size: cover;*/
+/*}
+.parallax-3 {
+  background-image: url("https://drscdn.500px.org/photo/175717689/m%3D900/9534112f3cd37e727af0549b8870a341");*/
+  /*background-size: cover;*/
+/*}
+.parallax-4 {
+    background-image: url("https://drscdn.500px.org/photo/176152301/m%3D900/f74a6002c6b692f3b67aa46f365c1e58");*/
+    /*background-size: contain;*/
+/*}*/
+
+/*@media screen and (max-width: 780px) {
     section.module.parallax {
         background-attachment: scroll !important;
     }
@@ -149,7 +174,7 @@ section.module.parallax {
     .parallax-1 {
       background-image: url('images/nyc.jpg');
       /*background-image: url("https://drscdn.500px.org/photo/169278907/m%3D900/8d87dce8064511b852a524547510ad38");*/
-      background-size: contain;
+      /*background-size: contain;
     }
     .parallax-2 {
         background-image: url("https://drscdn.500px.org/photo/191256723/m%3D900/84e4f244ae0da227b182404c4fc399d6");
@@ -163,4 +188,4 @@ section.module.parallax {
         background-image: url("https://drscdn.500px.org/photo/176152301/m%3D900/f74a6002c6b692f3b67aa46f365c1e58");
         background-size: contain;
     }
-}
+}*/
