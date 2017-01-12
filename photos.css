@@ -8,6 +8,11 @@
     background: transparent;
 }
 
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -114,6 +119,8 @@ section.module.parallax {
 .photos {
     margin-top: 20px;
     line-height: 0;
+    margin-right: 10px;
+    margin-left: 10px;
     /*-webkit-column-count: 5;
     -webkit-column-gap:   0px;
     -moz-column-count:    5;
@@ -126,6 +133,7 @@ section.module.parallax {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 @media (min-width: 1100px){
