@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import logo from './logo.svg';
+
+import photos from './data/photos';
 
 class Photography extends Component {
   render() {
+    // return (
+    //   <section class="content">
+    //     {photos.map(photo => {
+    //       return (
+    //         <div class="photo-container" key={ photo.id }>
+    //           <img src={ photo.src } alt="image" class="photo" />
+    //         </div>
+    //       )
+    //     })}
+    //   </section>
+    // );
     return (
-      <p> Photos </p>
-    );
+      <section>
+        <p> Coming soon 😃</p>
+      </section>
+    )
   }
 }
 
