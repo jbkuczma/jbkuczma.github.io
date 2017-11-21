@@ -10,6 +10,7 @@ import Photograhy from './views/Photography';
 import Projects from './views/Projects';
 
 const resume = require('./data/resume/JamesKuczmarskiResume.pdf');
+const codeSVG = require('./code.svg');
 
 class Header extends Component {
   render() {
@@ -17,6 +18,7 @@ class Header extends Component {
       <Router>
         <div>
           <header>
+            <img src={codeSVG} id="code_svg" />           
             <h1><Link to="/">Hey there. I'm <span id="name"> James Kuczmarski</span>.</Link></h1>
             <ul>
               <li><a href={resume} target="_blank"> Resume </a></li>

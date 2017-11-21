@@ -5,15 +5,15 @@ let photos = [
   },
   {
     id: 2,
-    src: require('./images/_6.jpg')
+    src: require('./images/_2.jpg')
   },
   {
     id: 3,
-    src: require('./images/_11.jpg')
+    src: require('./images/_3.jpg')
   },
   {
     id: 4,
-    src: require('./images/_9.jpg')
+    src: require('./images/_4.jpg')
   }
 ];
 
