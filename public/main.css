@@ -105,7 +105,8 @@ section.projects div.project p.project--description {
 
 /********************/
 /*** SVG ************/
-#code_svg {
+#code_svg, #camera_svg {
+	margin: 5px;
 	width: 64px;
 	height: 64px;
 }
