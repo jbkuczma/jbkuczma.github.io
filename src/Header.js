@@ -8,10 +8,11 @@ import {
 } from 'react-router-dom';
 
 import Site from './Site';
-import Resume from './Resume';
 import Landing from './Landing';
 import Photograhy from './Photography';
 import Projects from './Projects';
+
+const resume = require('./data/resume/JamesKuczmarskiResume.pdf');
 
 class Header extends Component {
   render() {
@@ -21,7 +22,7 @@ class Header extends Component {
           <header>
             <h1><Link to="/">Hey there. I'm <span id="name"> James Kuczmarski</span>.</Link></h1>
             <ul>
-              <li><Link to="/resume"> Resume </Link></li>              
+              <li><a href={resume} target="_blank"> Resume </a></li>
               <li><Link to="/projects"> Projects </Link></li>
               <li><Link to="/photography"> Photography </Link></li>
               <li><a title="GitHub" href="https://github.com/jbkuczma/" target="_blank"> GitHub </a></li>
@@ -30,7 +31,6 @@ class Header extends Component {
           </header>
 
           <Route exact path="/" component={Landing} />
-          <Route exact path="/resume" component={Resume} />          
           <Route path="/projects" component={Projects} />
           <Route path="/photography" component={Photograhy} />  
         </div>      
