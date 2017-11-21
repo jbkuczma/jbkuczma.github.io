@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-
 import {
   BrowserRouter as Router,
   Route,
   Link
 } from 'react-router-dom';
-
 import Site from './Site';
-import Landing from './Landing';
-import Photograhy from './Photography';
-import Projects from './Projects';
+import Landing from './views/Landing';
+import Photograhy from './views/Photography';
+import Projects from './views/Projects';
 
 const resume = require('./data/resume/JamesKuczmarskiResume.pdf');
 

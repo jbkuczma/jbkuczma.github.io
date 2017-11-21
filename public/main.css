@@ -86,6 +86,14 @@ section.projects div.project p.project--description {
 }
 
 /* Photography Page */
+.photography a {
+	color: #1F7DE2;
+}
+
+.photography a:hover{
+	color: #1C70C9;
+}
+
 .photo-container img {
 	display: inline-block;
     width: 100%;

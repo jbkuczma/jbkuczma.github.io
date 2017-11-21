@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import logo from './logo.svg';
 
-const resume = require('./data/resume/JamesKuczmarskiResume.pdf');
+const resume = require('../data/resume/JamesKuczmarskiResume.pdf');
 
 class Landing extends Component {
   render() {

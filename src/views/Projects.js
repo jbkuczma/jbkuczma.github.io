@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-
-import projects from './data/projects';
+import projects from '../data/projects';
 
 class Projects extends Component {
 
