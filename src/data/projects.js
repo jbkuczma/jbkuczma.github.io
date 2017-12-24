@@ -17,18 +17,26 @@ let projects = [
   },
   {
     id: 3,
-    name: 'Moose Mobile',
-    description: 'Mobile app for Moose - stream music effortlessly with others (In development)',
-    tech: 'JavaScript | React Native'
-  },
-  {
-    id: 4,
     name: 'NBAshotchart',
     description: 'Visualizer for shots taken by NBA players throughout a season',
     tech: 'Python | Flask',
     url: 'https://github.com/jbkuczma/NBAshotchart',
     github_name: 'jbkuczma/NBAshotchart'
-  }
+  },
+  {
+    id: 4,
+    name: 'Crypto React',
+    description: 'Dashboard app for showing various cryptocurrency values',
+    tech: 'JavaScript | React',
+    url: 'http://www.jameskuczmarski.com/crypto-react',
+    github_name: 'jbkuczma/crypto-react'
+  },
+  {
+    id: 5,
+    name: 'Moose Mobile',
+    description: 'Mobile app for Moose - stream music effortlessly with others (In development)',
+    tech: 'JavaScript | React Native'
+  },
 ];
 
 export default projects;

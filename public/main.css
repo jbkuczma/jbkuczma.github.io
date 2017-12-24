@@ -107,8 +107,8 @@ section.projects div.project p.project--description {
 /*** SVG ************/
 #code_svg, #camera_svg {
 	margin: 5px;
-	width: 64px;
-	height: 64px;
+	width: 48px;
+	height: 48px;
 }
 /********************/
 @media screen and (max-width: 636px) {
