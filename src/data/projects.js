@@ -26,7 +26,7 @@ let projects = [
   {
     id: 4,
     name: 'Crypto React',
-    description: 'Dashboard app for showing various cryptocurrency values',
+    description: 'Web dashboard app for showing various cryptocurrency values',
     tech: 'JavaScript | React',
     url: 'http://www.jameskuczmarski.com/crypto-react',
     github_name: 'jbkuczma/crypto-react'
