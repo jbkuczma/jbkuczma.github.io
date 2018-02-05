@@ -17,11 +17,11 @@ let projects = [
   },
   {
     id: 3,
-    name: 'NBAshotchart',
-    description: 'Visualizer for shots taken by NBA players throughout a season',
-    tech: 'Python | Flask',
-    url: 'https://github.com/jbkuczma/NBAshotchart',
-    github_name: 'jbkuczma/NBAshotchart'
+    name: 'Notify',
+    description: 'macOS menubar app that provides a mini player and adds notifications for Spotify',
+    tech: 'Swift',
+    url: 'https://github.com/jbkuczma/Notify',
+    github_name: 'jbkuczma/Notify'
   },
   {
     id: 4,
@@ -33,6 +33,14 @@ let projects = [
   },
   {
     id: 5,
+    name: 'NBAshotchart',
+    description: 'Visualizer for shots taken by NBA players throughout a season',
+    tech: 'Python | Flask',
+    url: 'https://github.com/jbkuczma/NBAshotchart',
+    github_name: 'jbkuczma/NBAshotchart'
+  },
+  {
+    id: 6,
     name: 'Moose Mobile',
     description: 'Mobile app for Moose - stream music effortlessly with others (In development)',
     tech: 'JavaScript | React Native'
