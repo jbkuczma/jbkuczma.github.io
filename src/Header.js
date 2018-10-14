@@ -4,7 +4,6 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Site from './Site';
 import Landing from './views/Landing';
 import Photograhy from './views/Photography';
 import Projects from './views/Projects';
@@ -19,15 +18,15 @@ class Header extends Component {
       <Router>
         <div>
           <header>
-            <img src={codeSVG} id="code_svg" />
-            <img src={cameraSVG} id="camera_svg" />                              
+            <img src={codeSVG} id="code_svg" alt="code"/>
+            <img src={cameraSVG} id="camera_svg" alt="camera" />                              
             <h1><Link to="/">Hey there. I'm <span id="name"> James Kuczmarski</span>.</Link></h1>
             <ul>
               <li><a href={resume} target="_blank"> Resume </a></li>
               <li><Link to="/projects"> Projects </Link></li>
               <li><Link to="/photography"> Photography </Link></li>
-              <li><a title="GitHub" href="https://github.com/jbkuczma/" target="_blank"> GitHub </a></li>
-              <li><a title="LinkedIn" href="https://www.linkedin.com/in/james-kuczmarski" target="_blank"> LinkedIn </a></li>
+              <li><a title="GitHub" href="https://github.com/jbkuczma/" target="_blank" rel="noopener noreferrer"> GitHub </a></li>
+              <li><a title="LinkedIn" href="https://www.linkedin.com/in/james-kuczmarski" target="_blank" rel="noopener noreferrer"> LinkedIn </a></li>
             </ul>
           </header>
 

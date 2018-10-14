@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import projects from '../data/projects';
 
 class Projects extends Component {
-
-  constructor(props) {
-    super(props);
-  }
-
-
   render() {
     return (
       <section class="content projects">
